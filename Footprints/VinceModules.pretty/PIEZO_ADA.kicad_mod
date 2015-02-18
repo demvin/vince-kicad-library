@@ -1,0 +1,11 @@
+(module PIEZO_ADA placed (layer F.Cu) (tedit 5420D91D)
+  (fp_text reference SP1 (at 0 -3.2) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value SPEAKER (at 0 2.65) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_circle (center 0 0) (end -6.45 -0.15) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole rect (at -2.5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+)
